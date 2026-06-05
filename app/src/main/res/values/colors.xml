@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary brand colors -->
+    <color name="primary">#00695C</color>          <!-- Dark Teal -->
+    <color name="primary_variant">#004D40</color>  <!-- Even darker teal -->
+    <color name="primary_light">#B2DFDB</color>    <!-- Light teal for backgrounds -->
+
+    <!-- Accent color for highlights & buttons -->
+    <color name="accent">#FF7043</color>           <!-- Coral Orange -->
+    <color name="accent_dark">#F4511E</color>      <!-- Darker orange for text -->
+
+    <!-- Background & surface -->
+    <color name="background">#FAFAFA</color>       <!-- Off-white background -->
+    <color name="surface">#FFFFFF</color>          <!-- White for cards -->
+
+    <!-- Status feedback -->
+    <color name="success">#43A047</color>          <!-- Green -->
+    <color name="warning">#FFA000</color>          <!-- Amber -->
+    <color name="error">#E53935</color>            <!-- Red -->
+
+    <!-- Text colors -->
+    <color name="text_primary">#212121</color>     <!-- Dark grey -->
+    <color name="text_secondary">#757575</color>   <!-- Medium grey -->
+
+    <!-- Additional colors used in your layouts -->
+    <color name="info">#9C27B0</color>              <!-- Purple for info button -->
+</resources>

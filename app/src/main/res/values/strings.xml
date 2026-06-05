@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ElectricityBillApp</string>
+    <string name="app_title">⚡ Electricity Bill Estimator</string>
+    <string name="month_label">📅 Select Month</string>
+    <string name="unit_label">🔌 Electricity Unit Used (kWh)</string>
+    <string name="unit_hint">Enter units (1 - 1000)</string>
+    <string name="rebate_label">💰 Rebate Percentage (%)</string>
+    <string name="rebate_hint">Enter rebate (0% - 5%)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="save">SAVE TO DATABASE</string>
+    <string name="view_list">VIEW LIST</string>
+    <string name="about">ABOUT</string>
+    <string name="results_title">📊 CALCULATION RESULTS</string>
+    <string name="total_charges">Total Charges:</string>
+    <string name="final_cost">Final Cost:</string>
+    <string name="update_bill_title">Update Bill</string>
+    <string name="update_bill_heading">✏️ Update Bill</string>
+    <string name="unit_used_label">Unit Used (kWh)</string>
+    <string name="recalculated_values">🔄 RECALCULATED VALUES</string>
+    <string name="update">UPDATE</string>
+    <string name="cancel">CANCEL</string>
+</resources>
