@@ -12,19 +12,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ElectricityBillApp"
         tools:targetApi="31">
-        <activity android:name=".BillListActivity" />
-        <activity android:name=".ViewBillActivity" />
-        <activity android:name=".UpdateBillActivity" />
-        <activity android:name=".AboutActivity" />
+
+        <activity android:name=".BillListActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <activity android:name=".ViewBillActivity"
+            android:parentActivityName=".BillListActivity" />
+
+        <activity android:name=".UpdateBillActivity"
+            android:parentActivityName=".BillListActivity" />
+
+        <activity android:name=".AboutActivity"
+            android:parentActivityName=".MainActivity" />
+
+        <!-- Main launcher activity (no parent) -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

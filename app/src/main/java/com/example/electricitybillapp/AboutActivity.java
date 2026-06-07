@@ -19,12 +19,13 @@ public class AboutActivity extends AppCompatActivity{
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("About");
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
         Button buttonGithub = findViewById(R.id.buttonGithub);
         buttonGithub.setOnClickListener(v -> {
             Intent intent = new Intent(Intent.ACTION_VIEW);
-            intent.setData(Uri.parse("https://github.com/yourusername/ElectricityBillApp"));
+            intent.setData(Uri.parse("https://github.com/IzzatiSyafiqa/ElectricityBillApp.git"));
             startActivity(intent);
         });
     }

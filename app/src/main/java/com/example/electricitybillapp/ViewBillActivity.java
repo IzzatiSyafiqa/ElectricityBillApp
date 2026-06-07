@@ -25,6 +25,7 @@ public class ViewBillActivity extends AppCompatActivity{
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("Bill Details");
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
         int billId = getIntent().getIntExtra("bill_id", 0);

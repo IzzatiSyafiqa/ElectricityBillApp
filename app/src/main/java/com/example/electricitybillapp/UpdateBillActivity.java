@@ -30,6 +30,7 @@ public class UpdateBillActivity extends AppCompatActivity{
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("Update Bill");
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setDisplayShowHomeEnabled(true);
         }
 
         billId = getIntent().getIntExtra("bill_id", 0);
